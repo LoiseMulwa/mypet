@@ -43,6 +43,21 @@ body h2{
     color: white;
     font-size: large;
 }
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.ol{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
 @media screen and (max-width:500px) {
     /* body{
         background-color: aqua;
