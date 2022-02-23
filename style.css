@@ -22,6 +22,7 @@
 }
 .whole{
     display: flex;
+    margin-top: 100px;
 
     /* flex-wrap: wrap; */
 }
@@ -53,6 +54,7 @@ footer{
     display: flex;
     justify-content: space-around;
     background-color: beige;
+    margin-top: 80px;
 }
 header{
     display: flex;
@@ -67,9 +69,57 @@ header{
     
   
 }
-ol a{
-    padding: 16px 14px;
+.flex1,.flex2,.flex3 p{
+    font-size: larger;
+    margin-bottom: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: wheat;
+
 }
+ol{
+    margin-top: 50px;
+}
+.logo img{
+    height: 20vh;
+    width: 25vh;
+    border: 2px solid whitesmoke;
+    border-radius: 50px;
+    margin-left: 15px;
+    
+}
+
+.brand{
+    display: flex;
+}
+.pup{
+    margin-bottom: 80px;
+}
+.flex1{
+    background: linear-gradient(white,black);
+}
+.flex2{
+    background: linear-gradient(black,brown);
+}
+.flex3{
+    background: linear-gradient(white,black);
+
+}
+.line {
+    color: white;
+    text-align: center;
+}
+
+ol a{
+    padding: 50px;
+}
+
+ol li{
+    font-size: large;
+}
+/* ol a{
+    padding: 16px 14px;
+} */
 @media screen and (max-width:500px) {
     /* body{
         background-color: aqua;
@@ -79,6 +129,7 @@ ol a{
     .whole{
         display: flex;
         flex-direction: column;
+        
     }
     
 }
