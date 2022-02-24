@@ -109,9 +109,21 @@ ol{
     color: white;
     text-align: center;
 }
+.active{
+    background-color: brown;
+}
 
-ol a{
-    padding: 50px;
+a{
+    display: block;
+    padding: 20px;
+    color: white;
+    
+}
+a:hover{
+    background-color: black;
+}
+.line hr{
+    width: 50%;
 }
 
 ol li{
