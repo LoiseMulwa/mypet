@@ -53,12 +53,13 @@ body h2{
 footer{
     display: flex;
     justify-content: space-around;
-    background-color: beige;
+    background-color: gray;
     margin-top: 80px;
 }
 header{
     display: flex;
     justify-content: space-between;
+    background-color: gray;
     
 }
 .ol{
